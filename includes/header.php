@@ -7,38 +7,6 @@
 
     <!-- Header Top Area -->
 
-    <div class="header-top-area header-top-two dark-bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-3 col-lg-3">
-                    <div class="header-info">
-                        <i class="las la-phone"></i>
-                        <p><span>Hotline</span>: +(+62)546 158 361</p>
-                    </div>
-                </div>
-                <div class="col-xl-6 col-lg-5 text-center">
-                    <div class="header-top-link">
-                        <p>Get Your Free Tax Advisor Today and Save 10% on Your First Session <a href="contact.php">Get Started</a></p>
-                    </div>
-                </div>
-
-                <div class="col-xl-3 col-lg-4 text-end">
-                    <div class="header-top-right d-flex">
-                        <div class="login-link">
-                            <a href="#">Login</a>
-                        </div>
-                        <div class="search-bar">
-                            <input type="text" placeholder="Search Here">
-                            <div class="search-icon">
-                                <i class="fal fa-search"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- Header Area -->
 
     <div class="header-area header-two">
@@ -58,7 +26,18 @@
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
 
+                                <style>
+                                    .nav-2row {
+                                        display: flex;
+                                        flex-direction: column;
+                                    }
+                                </style>
                                 <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                                    <ul>
+                                        <li><a href="tel:+91-9876 543 210"><span class="circle-small-btn"><i class="las la-phone"></i></span><b>+91-9876 543 210</b></a></li>
+                                        <li><a href="mailto:info@examplemail.com"><span class="circle-small-btn"><i class="las la-envelope"></i></span><b>info@examplemail.com</b></a></li>
+                                    </ul>
+
                                     <ul class="navbar-nav m-auto">
                                         <li class="nav-item">
                                             <a class="nav-link active" href="index.php">Home
@@ -74,7 +53,6 @@
                                                 <li><a href="team.php">Team</a></li>
                                                 <li><a href="faq.php">Helpful FAQ</a></li>
                                                 <li><a href="price.php">Pricing</a></li>
-
                                             </ul>
                                         </li>
 
@@ -127,10 +105,8 @@
                         </div>
 
                         <div class="header-contact">
-                            <div class="header-contact-icon"><i class="las la-comments"></i></div>
                             <div class="header-contact-info">
-                                <p>Let's Chat</p>
-                                <h6>(208) 555-0112 89</h6>
+                                <a href="" class="main-btn">Book Appointment</a>
                             </div>
                         </div>
                     </div>
@@ -138,3 +114,64 @@
             </div>
         </div>
     </div>
+    <!-- <div class="box-3">
+        <div class="btn btn-three">
+            <span>HOVER ME</span>
+        </div>
+    </div>  -->
+
+    <style>
+        .box-3 {
+            background-color: #66A182;
+        }
+
+        .btn {
+            line-height: 50px;
+            height: 50px;
+            text-align: center;
+            width: 250px;
+            cursor: pointer;
+        }
+
+        .btn-three {
+            color: #FFF;
+            transition: all 0.5s;
+            position: relative;
+        }
+
+        .btn-three::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            background-color: rgba(255, 255, 255, 0.1);
+            transition: all 0.3s;
+        }
+
+        .btn-three:hover::before {
+            opacity: 0;
+            transform: scale(0.5, 0.5);
+        }
+
+        .btn-three::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            opacity: 0;
+            transition: all 0.3s;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            transform: scale(1.2, 1.2);
+        }
+
+        .btn-three:hover::after {
+            opacity: 1;
+            transform: scale(1, 1);
+        }
+    </style> 

@@ -229,7 +229,7 @@
 
     <!-- Service Section  -->
 
-    <div class="service-section service-two section-padding">
+    <!-- <div class="service-section service-two section-padding">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8 col-lg-8 text-center">
@@ -300,7 +300,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- Testimonial Section  -->
     <div class="testimonial-section testimonial-two green-bg section-padding pb-30">
@@ -856,7 +856,13 @@
         </div>
     </div>
 
+    <style>
+        .footer-pad {
+            margin-top: 10px;
+        }
+    </style>
 
+    <div class="footer-pad"></div>
     <?php include 'includes/footer.php' ?>
     <?php include 'includes/footer-scripts.php' ?>
 </body>
