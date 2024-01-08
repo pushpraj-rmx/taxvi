@@ -719,6 +719,11 @@ hr {
   cursor: pointer;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  border-radius: 100px;
+}
+
+.main-btn.header-btn {
+  padding: 8px 25px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -1768,7 +1773,7 @@ body .magic-hover:hover {
   align-items: center;
   background-color: #fff;
   border-radius: 0 0 10px 10px;
-  padding: 0 30px;
+  padding: 0 0;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
@@ -1792,7 +1797,7 @@ body .magic-hover:hover {
 .header-area .header-inner-box .logo {
   display: flex;
   align-items: center;
-  padding-right: 30px;
+  padding: 0px 30px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -6519,7 +6524,7 @@ override
 
 .collapse.navbar-collapse.justify-content-center ul {
   text-align: end;
-  margin: 0px 0px 0px auto !important;
+  margin: 3px 0px 0px auto !important;
 }
 
 .collapse.navbar-collapse.justify-content-center ul.sub-menu {
@@ -6539,7 +6544,7 @@ override
 
 .header-inner-box .main-menu {
   padding-right: 20px;
-  border-right: 1px solid rgba(0, 0, 0, 0.149);
+  /* border-right: 1px solid rgba(0, 0, 0, 0.149); */
 }
 
 .header-inner-box .header-contact {
