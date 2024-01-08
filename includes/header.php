@@ -40,20 +40,33 @@
 
                                     <ul class="navbar-nav m-auto">
                                         <li class="nav-item">
-                                            <a class="nav-link active" href="index.php">Home
+                                            <a class="nav-link active" href="#">Products
                                                 <span class="sub-nav-toggler"> </span>
                                             </a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Pages
+                                            <a class="nav-link" href="about.php">About Us
                                                 <span class="sub-nav-toggler"> </span>
                                             </a>
-                                            <ul class="sub-menu">
+                                            <!-- <ul class="sub-menu">
                                                 <li><a href="about.php">About Us</a></li>
                                                 <li><a href="team.php">Team</a></li>
                                                 <li><a href="faq.php">Helpful FAQ</a></li>
                                                 <li><a href="price.php">Pricing</a></li>
+                                            </ul> -->
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Financial Tools
+                                            <span class="sub-nav-toggler"> </span>
+                                            </a>
+                                            <ul class="sub-menu">
+                                                <li><a href="#">Financial Health Check</a></li>
+                                                <li><a href="#">Financial Fact Finder</a></li>
+                                                <li><a href="#">Goal Based Planning</a></li>
                                             </ul>
+
+
                                         </li>
 
                                         <li class="nav-item">
@@ -106,7 +119,7 @@
 
                         <div class="header-contact">
                             <div class="header-contact-info">
-                                <a href="" class="main-btn">Book Appointment</a>
+                                <a href="" class="main-btn">Login Portfolio</a>
                             </div>
                         </div>
                     </div>
@@ -174,4 +187,4 @@
             opacity: 1;
             transform: scale(1, 1);
         }
-    </style> 
+    </style>

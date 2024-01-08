@@ -1931,12 +1931,12 @@ body .magic-hover:hover {
 
 .main-menu li.nav-item {
   position: relative;
-  margin-left: 60px;
+  margin-left: 46px;
 }
 
 .main-menu .navbar-nav .nav-link {
   font-family: 'Raleway', sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 600;
   display: block;
   /* padding: 35px 0; */
@@ -6575,14 +6575,14 @@ override
 .my-btn:focus,
 .my-btn.focus {
   color: red;
-  background-color: darken(greenyellow, 10%);
-  border-color: darken(yellow, 25%);
+  background-color: darkgreen;
+  border-color: darkgreen;
 }
 
 .my-btn:hover {
   color: red;
-  background-color: darken(greenyellow, 10%);
-  border-color: darken(yellow, 12%);
+  background-color: darkgreen;
+  border-color: darkgreen;
 }
 
 .my-btn:active,
@@ -6613,7 +6613,7 @@ fieldset[disabled] .my-btn {
 
 /* Button sizes */
 .my-btn {
-  padding: 20px 10px;
+  padding: 0px 10px;
   font-size: 20px;
   line-height: 1.7;
   border-radius: 30px;
