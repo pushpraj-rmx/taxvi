@@ -18,82 +18,39 @@
     <div class="hero-area hero-area-two">
         <div class="homepage-slides owl-carousel">
             <div class="single-slide-item">
-                <div class="slider-bg bg-cover" data-background="assets/img/slider/slide-4.jpg">
-                    <div class="overlay-2"></div>
+                <div class="slider-bg bg-cover" data-background="assets/img/slider/slide-1.jpg">
+                    <div class="overlay-2-disabled"></div>
                     <div class="container">
                         <div class="hero-area-content">
-                            <h3>Make Your Taxes Easy</h3>
-                            <h1 class="text-white">Reliable & Trusted <br>Advice</h1>
-                            <p class="text-white">There are many variations of passages of Lorem available, but the majority have suffered alteration in some form, by injected humour, or randomised words </p>
-                            <a class="main-btn" href="contact.php">Make an Appointment</a>
+                            <h3 class="text-center" style="display: block;">Make Your Taxes Easy</h3>
+                            <h1 class="text-center">Reliable & Trusted <br>Advice</h1>
                         </div>
-                        <!-- <div class="social-link">
-                            <a href="#">.FACEBOOK</a>
-                            <a href="#">.BEHANCE</a>
-                            <a href="#">.TELEGRAM</a>
-                            <a href="#">.DRIBBLE</a>
-                        </div> -->
                     </div>
                 </div>
-                <!-- <div class="pop-up-video">
-                    <a href="https://www.youtube.com/watch?v=yFwGpiCs3ss" class="video-play-btn mfp-iframe">
-                        <i class="las la-play"></i> <span></span>
-                    </a>
-                </div> -->
             </div>
             <div class="single-slide-item">
                 <div class="slider-bg bg-cover" data-background="assets/img/slider/slide-2.jpg">
-                    <div class="overlay-2"></div>
+                    <div class="overlay-2-disabled"></div>
                     <div class="container">
                         <div class="hero-area-content">
-                            <h3>Make Your Taxes Easy</h3>
-                            <h1 class="text-white">Reliable & Trusted <br>Advice</h1>
-                            <p class="text-white">There are many variations of passages of Lorem available, but the majority have suffered alteration in some form, by injected humour, or randomised words </p>
-                            <a class="main-btn" href="contact.php">Make an Appointment</a>
+                            <h3 class="text-center" style="display: block;">Make Your Taxes Easy</h3>
+                            <h1 class="text-center">Reliable & Trusted <br>Advice</h1>
                         </div>
-                        <!-- <div class="social-link">
-                            <a href="#">.FACEBOOK</a>
-                            <a href="#">.BEHANCE</a>
-                            <a href="#">.TELEGRAM</a>
-                            <a href="#">.DRIBBLE</a>
-                        </div> -->
                     </div>
                 </div>
-                <!-- <div class="pop-up-video">
-                    <a href="https://www.youtube.com/watch?v=yFwGpiCs3ss" class="video-play-btn mfp-iframe">
-                        <i class="las la-play"></i> <span></span>
-                    </a>
-                </div> -->
             </div>
             <div class="single-slide-item">
-                <div class="slider-bg bg-cover" data-background="assets/img/slider/slide-4.jpg">
-                    <div class="overlay-2"></div>
+                <div class="slider-bg bg-cover" data-background="assets/img/slider/slide-3.jpg">
+                    <div class="overlay-2-disabled"></div>
                     <div class="container">
                         <div class="hero-area-content">
-                            <h3>Make Your Taxes Easy</h3>
-                            <h1 class="text-white">Reliable & Trusted <br>Advice</h1>
-                            <p class="text-white">There are many variations of passages of Lorem available, but the majority have suffered alteration in some form, by injected humour, or randomised words</p>
-                            <a class="main-btn" href="#">Make an Appointment</a>
+                            <h3 class="text-center" style="display: block;">Make Your Taxes Easy</h3>
+                            <h1 class="text-center">Reliable & Trusted <br>Advice</h1>
                         </div>
-                        <!-- <div class="social-link">
-                            <a href="#">.FACEBOOK</a>
-                            <a href="#">.BEHANCE</a>
-                            <a href="#">.TELEGRAM</a>
-                            <a href="#">.DRIBBLE</a>
-                        </div> -->
                     </div>
                 </div>
-                <!-- <div class="pop-up-video">
-                    <a href="https://www.youtube.com/watch?v=yFwGpiCs3ss" class="video-play-btn mfp-iframe">
-                        <i class="las la-play"></i> <span></span>
-                    </a>
-                </div> -->
             </div>
         </div>
-        <!-- <div class="founder-year">
-            <h2>Since 1990</h2>
-            <a href="contact.php">Contact With Us</a>
-        </div> -->
     </div>
 
     <!-- Feature Section  -->
@@ -120,6 +77,14 @@
 
     <!-- table area -->
     <style>
+                .feature-section {
+                    padding-top: 50px;
+                }
+        .feature-section h2 {
+            font-size: 40px;
+        }
+
+
         .tableSwiper {
             /* height: 600px; */
             width: 100%;
@@ -190,7 +155,7 @@
 
     <!-- Feature Area  -->
 
-    <div class="feature-section feature-two section-padding">
+    <div class="kyc-section feature-section feature-two section-padding">
         <div class="container">
             <div class="row">
                 <div class="col-xl-6 col-lg-6 col-12 wow fadeInLeft animated" data-wow-delay="600ms">
@@ -201,14 +166,17 @@
                             </div>
                             <div class="feature-title">
                                 <h4 class="text-white">
-                                    Do it yourself; check your status of KYC.
+                                    Check your status of KYC
                                 </h4>
+                                <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks</p>
+
+                                <div class="btn-container">
+                                    <a href="#" class="main-btn">
+                                        Check Status
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                        <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks</p>
-                        <a href="service-details.php" class="service-details-link">
-                            <i class="las la-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-12 wow fadeInLeft animated" data-wow-delay="600ms">
@@ -219,14 +187,17 @@
                             </div>
                             <div class="feature-title">
                                 <h4 class="text-white">
-                                    Do it yourself; check your status of KYC.
+                                    Check your status of KYC
                                 </h4>
+                                <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks</p>
+
+                                <div class="btn-container">
+                                    <a href="#" class="main-btn">
+                                        Check Status
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                        <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks</p>
-                        <a href="service-details.php" class="service-details-link">
-                            <i class="las la-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
             </div>
@@ -526,13 +497,58 @@
         </div>
     </div>
 
+    <style>
+        .swiper-wrapper {
+
+            transition-timing-function: linear !important
+        }
+            
+    </style>
+
     <!-- Client Area  -->
-    <div class="clients-area pb-120">
-        <div class="client-logo-wrap">
-            <img src="assets/img/client/themeforest.png" alt="themeforest-logo">
-            <img src="assets/img/client/codecanyon.png" alt="codecanyon-logo">
-            <img src="assets/img/client/videohive.png" alt="videohibe-logo">
-            <img src="assets/img/client/graphicriver.png" alt="graphicriver-logo">
+    <div class="pb-120">
+        <!-- Slider main container -->
+        <div class="client-swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <img src="assets/img/client/themeforest.png" alt="themeforest-logo">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/img/client/codecanyon.png" alt="codecanyon-logo">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/img/client/videohive.png" alt="videohibe-logo">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/img/client/graphicriver.png" alt="graphicriver-logo">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/img/client/themeforest.png" alt="themeforest-logo">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/img/client/codecanyon.png" alt="codecanyon-logo">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/img/client/videohive.png" alt="videohibe-logo">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/img/client/graphicriver.png" alt="graphicriver-logo">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/img/client/themeforest.png" alt="themeforest-logo">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/img/client/codecanyon.png" alt="codecanyon-logo">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/img/client/videohive.png" alt="videohibe-logo">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/img/client/graphicriver.png" alt="graphicriver-logo">
+                </div>
+            </div>
         </div>
     </div>
 

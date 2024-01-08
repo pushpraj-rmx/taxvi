@@ -69,14 +69,24 @@
         },
     });
 
-    // function infinite() {
-    //     swiper.slideTo(swiper.slides.length);
-    //     swiper.loop('transitionEnd', function() {
-    //         swiper.slideTo(swiper.params.slidesPerView, 0, false);
-    //         setTimeout(function() {
-    //             infinite();
-    //         }, 0);
-    //     });
-    // }
-    // infinite();
+    const clientSwiper = new Swiper('.client-swiper', {
+        slidesPerView: 5,
+        loop: true,
+        speed: 2000,
+        autoplay: {
+            delay: 0.1,
+            disableOnInteraction: false,
+        },
+    });
+
+    function infinite() {
+        swiper.slideTo(swiper.slides.length);
+        swiper.once('transitionEnd', function() {
+            swiper.slideTo(swiper.params.slidesPerView, 0, false);
+            setTimeout(function() {
+                infinite();
+            }, 0);
+        });
+    }
+    infinite();
 </script>

@@ -720,6 +720,7 @@ hr {
   -webkit-transition: 0.3s;
   transition: 0.3s;
   border-radius: 100px;
+  border: 1px solid transparent;
 }
 
 .main-btn.header-btn {
@@ -738,6 +739,12 @@ hr {
   background-color: #056251;
   color: #fff !important;
   border-color: #056251;
+}
+
+.kyc-section .main-btn:hover {
+  /* background-color: #056251; */
+  color: #FFB966 !important;
+  border: 1px solid #FFB966;
 }
 
 .main-btn.white {
@@ -2339,7 +2346,7 @@ img.client-three {
 
 .hero-area-two .hero-area-content {
   margin-top: 0;
-  padding-top: 220px;
+  padding-top: 120px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2371,7 +2378,7 @@ img.client-three {
   font-size: 90px;
   line-height: 100px;
   color: #fff;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2698,11 +2705,12 @@ img.client-three {
 
 .single-feature-item .feature-item-inner {
   display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
 .single-feature-item .feature-item-inner .feature-title {
-  padding-left: 30px;
+  padding-top: 30px;
 }
 
 .single-feature-item .feature-item-inner .feature-title h4 {
@@ -2742,12 +2750,27 @@ img.client-three {
   background: #FFB966;
 }
 
+.kyc-section .single-feature-item:hover {
+  background: #056251;
+}
+
+
+
+
 .single-feature-item:hover .feature-icon {
   background: #056251;
 }
 
+.kyc-section .single-feature-item:hover .feature-icon {
+  background: #FFB966;
+}
+
 .single-feature-item:hover .feature-icon i {
   color: #fff;
+}
+
+.kyc-section .single-feature-item:hover .feature-icon i {
+  color: #000;
 }
 
 .single-feature-item:hover .service-details-link i {
@@ -6622,4 +6645,18 @@ fieldset[disabled] .my-btn {
   font-size: 20px;
   line-height: 1.7;
   border-radius: 30px;
+}
+
+.homepage-slides .owl-stage-outer {
+  height: 500px;
+}
+
+.kyc-section  {
+  text-align: center;
+}
+
+.kyc-section .btn-container {
+  width: 100%;
+  margin: 30px 0px;
+  text-align: center;
 }
