@@ -12,7 +12,7 @@
     <div class="header-area header-two">
         <div class="sticky-area">
             <div class="navigation">
-                <div class="container">
+                <div class="container-fluid">
                     <div class="header-inner-box">
                         <div class="logo">
                             <a class="navbar-brand" href="index.php"><img src="assets/img/logo.png" alt=""></a>
@@ -34,8 +34,11 @@
                                 </style>
                                 <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                                     <ul>
-                                        <li><a href="tel:+91-9876 543 210"><span class="circle-small-btn"><i class="las la-phone"></i></span><b>+91-9876 543 210</b></a></li>
-                                        <li><a href="mailto:info@examplemail.com"><span class="circle-small-btn"><i class="las la-envelope"></i></span><b>info@examplemail.com</b></a></li>
+                                        <li><a href="tel:+91-9876 543 210"><span class="circle-small-btn"><i class="las la-phone"></i></span>+91-9876 543 210</a></li>
+                                        <li><a href="mailto:info@examplemail.com"><span class="circle-small-btn"><i class="las la-envelope"></i></span>info@examplemail.com</a></li>
+                                        <span style=margin-left:20px>
+                                            <a href="" class="main-btn header-btn">Login Portfolio</a>
+                                        </span>
                                     </ul>
 
                                     <ul class="navbar-nav m-auto">
@@ -58,7 +61,7 @@
 
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">Financial Tools
-                                            <span class="sub-nav-toggler"> </span>
+                                                <span class="sub-nav-toggler"> </span>
                                             </a>
                                             <ul class="sub-menu">
                                                 <li><a href="#">Financial Health Check</a></li>
@@ -110,18 +113,22 @@
                                         </li>
 
                                         <li class="nav-item">
-                                            <a class="nav-link" href="contact.php">Contact Us</a>
+                                            <a class="nav-link" href="contact.php">Online Appointment</a>
                                         </li>
+                                        <!-- <div style=margin-left:20px>
+                                            <a href="" class="main-btn">Login Portfolio</a>
+                                        </div> -->
+
                                     </ul>
                                 </div>
                             </nav>
                         </div>
-
+                        <!-- 
                         <div class="header-contact">
                             <div class="header-contact-info">
                                 <a href="" class="main-btn">Login Portfolio</a>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
