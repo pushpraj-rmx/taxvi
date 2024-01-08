@@ -3,7 +3,7 @@
     <div class="mouseCursor cursor-inner"><span>Drag</span></div>
 
     <!-- Pre-Loader -->
-    <div class="preloader"></div>
+    <!-- <div class="preloader"></div> -->
 
     <!-- Header Top Area -->
 
