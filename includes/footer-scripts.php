@@ -28,3 +28,55 @@
 <script src="assets/js/circle-progress.min.js"></script>
 <!-- Main JS -->
 <script src="assets/js/main.js"></script>
+<script>
+    // const swiper = new Swiper('.tableSwiper', {
+    //     
+    //     loop: true,
+    //     slidesPerView: 1,
+    //     speed: 10000
+    // });
+
+    var swiper = new Swiper('.tableSwiper', {
+        direction: 'horizontal',
+        spaceBetween: 40,
+        grabCursor: true,
+        a11y: false,
+        freeMode: true,
+        speed: 11000,
+        loop: true,
+        slidesPerView: "auto",
+        autoplay: {
+            delay: 0.5,
+            disableOnInteraction: false,
+        },
+        breakpoints: {
+            0: {
+                /* when window >=0px - webflow mobile landscape/portriat */
+                spaceBetween: 30,
+            },
+            480: {
+                /* when window >=0px - webflow mobile landscape/portriat */
+                spaceBetween: 30,
+            },
+            767: {
+                /* when window >= 767px - webflow tablet */
+                spaceBetween: 40,
+            },
+            992: {
+                /* when window >= 988px - webflow desktop */
+                spaceBetween: 40,
+            }
+        },
+    });
+
+    // function infinite() {
+    //     swiper.slideTo(swiper.slides.length);
+    //     swiper.loop('transitionEnd', function() {
+    //         swiper.slideTo(swiper.params.slidesPerView, 0, false);
+    //         setTimeout(function() {
+    //             infinite();
+    //         }, 0);
+    //     });
+    // }
+    // infinite();
+</script>

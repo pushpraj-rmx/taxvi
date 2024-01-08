@@ -27,6 +27,10 @@
     <!-- Responsive CSS -->
     <link href="assets/css/responsive.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 
     <!-- jquery -->
     <script src="assets/js/jquery-1.12.4.min.js"></script>

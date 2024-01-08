@@ -96,6 +96,79 @@
         </div>
     </div>
 
+   <!-- table area -->
+    <style>
+        .tableSwiper {
+            /* height: 600px; */
+            width: 100%;
+        }
+
+        .stable {
+            margin-top: 50px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+
+        }
+    </style>
+    <section>
+        <div class="stable">
+
+            <!-- Slider main container -->
+            <div class="tableSwiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <table cellspacing="3" cellpadding="3">
+                            <tbody>
+                                <tr class="font_sty">
+                                    <td width="1%">SENSEX
+                                        <hr style="background-color:#1b509e; height:1px; border:none;"><span class="value">72,303.85</span><br><span class=""><img src="https://my-eoffice.com/img/down.png"> -106.53 (-0.15%) </span>
+                                    </td>
+                                    <td width="1%">GOLD
+                                        <hr style="background-color:#1b509e; height:1px; border:none;"><span class="value">63346.00</span><br><span class=""><img src="https://my-eoffice.com/img/down.png"> -43.00 (-0.07%) </span>
+                                    </td>
+                                    <td width="1%">SILVER
+                                        <hr style="background-color:#1b509e; height:1px; border:none;"><span class="value">74404.00</span><br><span class=""><img src="https://my-eoffice.com/img/down.png"> -555.00 (-0.74%) </span>
+                                    </td>
+                                    <td width="1%">Crude
+                                        <hr style="background-color:#1b509e; height:1px; border:none;"><span class="value">6003.00</span><br><span class=""><img src="https://my-eoffice.com/img/down.png"> -45.00 (-0.74%) </span>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td width="1%">USD/INR
+                                        <hr style="background-color:#1b509e; height:1px; border:none;"><span class="value">83.157</span><br><span class=""><img src="https://my-eoffice.com/img/down.png"> -0.039 (-0.05%) </span>
+                                    </td>
+                                    <td width="1%">EURO
+                                        <hr style="background-color:#1b509e; height:1px; border:none;"><span class="value">92.0940</span><br><span class=""><img src="https://my-eoffice.com/img/up.png"> +0.1235 (+0.13%) </span>
+                                    </td>
+                                    <td width="1%">UK
+                                        <hr style="background-color:#1b509e; height:1px; border:none;"><span class="value">106.166</span><br><span class=""><img src="https://my-eoffice.com/img/up.png"> +0.267 (+0.25%) </span>
+                                    </td>
+                                    <td width="1%">YEN
+                                        <hr style="background-color:#1b509e; height:1px; border:none;"><span class="value">58.8777</span><br><span class=""><img src="https://my-eoffice.com/img/up.png"> +0.0761 +0.13% </span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+ 
     <!-- Feature Area  -->
 
     <div class="feature-section feature-two section-padding">
@@ -858,7 +931,8 @@
 
     <style>
         .footer-pad {
-            margin-top: 10px;
+            padding-top: 50px;
+            background-color: #FCF2E8;
         }
     </style>
 
