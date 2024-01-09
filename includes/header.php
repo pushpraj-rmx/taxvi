@@ -1,6 +1,6 @@
     <!-- Mouse Cursor  -->
-    <div class="mouseCursor cursor-outer"></div>
-    <div class="mouseCursor cursor-inner"><span>Drag</span></div>
+    <!-- <div class="mouseCursor cursor-outer"></div>
+    <div class="mouseCursor cursor-inner"><span>Drag</span></div> -->
 
     <!-- Pre-Loader -->
     <!-- <div class="preloader"></div> -->
@@ -43,77 +43,93 @@
 
                                     <ul class="navbar-nav m-auto">
                                         <li class="nav-item">
-                                            <a class="nav-link active" href="#">Products
-                                                <span class="sub-nav-toggler"> </span>
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
                                             <a class="nav-link" href="about.php">About Us
                                                 <span class="sub-nav-toggler"> </span>
-                                            </a>
-                                            <!-- <ul class="sub-menu">
-                                                <li><a href="about.php">About Us</a></li>
-                                                <li><a href="team.php">Team</a></li>
-                                                <li><a href="faq.php">Helpful FAQ</a></li>
-                                                <li><a href="price.php">Pricing</a></li>
-                                            </ul> -->
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Financial Tools
-                                                <span class="sub-nav-toggler"> </span>
+                                                <i class="fas fa-caret-down"></i>
                                             </a>
                                             <ul class="sub-menu">
-                                                <li><a href="#">Financial Health Check</a></li>
-                                                <li><a href="#">Financial Fact Finder</a></li>
-                                                <li><a href="#">Goal Based Planning</a></li>
+                                                <li><a href="#">Our Team</a></li>
+                                                <li><a href="#">Our Partner</a></li>
+                                                <li><a href="#">Video</a></li>
                                             </ul>
-
-
                                         </li>
 
                                         <li class="nav-item">
                                             <a class="nav-link" href="#">Services
                                                 <span class="sub-nav-toggler"> </span>
+                                                <i class="fas fa-caret-down"></i>
                                             </a>
                                             <ul class="sub-menu">
+                                                <li><a href="#">Financial Planning</a></li>
+                                                <li><a href="#">Tax Planning</a></li>
+                                                <li><a href="#">Wealth Planning</a></li>
+                                                <li><a href="#">Child Future Planning</a></li>
+                                                <li><a href="#">Retirement Planning</a></li>
+                                                <li><a href="#">Loans</a></li>
+
+                                            </ul>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Products
+                                                <span class="sub-nav-toggler"> </span>
+                                                <i class="fas fa-caret-down"></i>
+                                            </a>
+
+                                            <ul class="sub-menu">
+                                                <li>
+                                                    <a href="#">Mutual Fund</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Insurance</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Fixed Deposit</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Real Estate</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">NRI</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Financial Tools
+                                                <span class="sub-nav-toggler"> </span>
+                                                <i class="fas fa-caret-down"></i>
+                                            </a>
+
+
+                                            <ul class="sub-menu">
+                                                <li>
+                                                    <a href="cases.php">Financial Health Check</a>
+                                                </li>
+                                                <li>
+                                                    <a href="cases.php">Financial Fact Finder</a>
+                                                </li>
+                                                <li>
+                                                    <a href="cases.php">Goal Based Planning</a>
+                                                </li>
+
+                                            </ul>
+                                            <!-- <ul class="sub-menu">
                                                 <li>
                                                     <a href="services.php">Service </a>
                                                 </li>
                                                 <li>
                                                     <a href="service-details.php">Service Details</a>
                                                 </li>
-                                            </ul>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Cases
-                                                <span class="sub-nav-toggler"> </span>
-                                            </a>
-                                            <ul class="sub-menu">
-                                                <li>
-                                                    <a href="cases.php">Cases </a>
-                                                </li>
-                                                <li>
-                                                    <a href="case-details.php">Cases Details</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a class="nav-link" href="#">Blogs
-                                                <span class="sub-nav-toggler"> </span>
-                                            </a>
-                                            <ul class="sub-menu">
-                                                <li>
-                                                    <a href="blog.php">Blogs </a>
-                                                </li>
-                                                <li>
-                                                    <a href="blog-details.php">Blog Details</a>
-                                                </li>
-                                            </ul>
+                                            </ul> -->
                                         </li>
 
+
+
+
+
                                         <li class="nav-item">
-                                            <a class="nav-link" href="contact.php">Online Appointment</a>
+                                            <a class="nav-link" href="contact.php" style="font-size: 17px; color:#056251"><u>Online Appointment</u></a>
                                         </li>
                                         <!-- <div style=margin-left:20px>
                                             <a href="" class="main-btn">Login Portfolio</a>

@@ -267,6 +267,30 @@
         </div>
     </div>
 
+
+    <!-- CTA Section  -->
+
+    <div class="cta-area cta-three bg-cover" data-background="assets/img/cta-bg.jpg">
+        <div class="overlay"></div>
+        <div class="cta-area-inner pt-100">
+            <div class="container">
+                <div class="offset-xl-2 col-xl-6 offset-lg-1 col-lg-6 col-md-8">
+                    <div class="section-title">
+                        <p>GET STARTED</p>
+                        <h2 class="text-white">Changing Your Lives,
+                            Changing Your Futures</h2>
+                    </div>
+                    <a href="about.php" class="main-btn mt-20">Discover More</a>
+                </div>
+
+                <div class="offset-xl-4 col-xl-7 offset-lg-4 col-lg-7 offset-md-4 col-md-7">
+                    <p class="text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words look even slightly believable. If you are going to use a passage </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <!-- Solution Section  -->
 
     <style>
