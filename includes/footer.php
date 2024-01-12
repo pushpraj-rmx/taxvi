@@ -96,6 +96,30 @@
 </div>
 <div class="appointment-btn">
     <a href="" class="btn my-btn">
-        Shanbhu
+        Get Appointment
     </a>
 </div>
+
+<div class="whatsapp-footer">
+    <i class="fab fa-whatsapp"></i>
+</div>
+
+<style>
+    .whatsapp-footer {
+        position: fixed;
+        bottom: 140px;
+        right: 5px;
+        background-color: #25d366;
+        border-radius: 50%;
+        width: 50px;
+        z-index: 99999;
+        height: 50px;
+    }
+
+    .whatsapp-footer i {
+        /* color: #25d366; */
+        color: white;
+        font-size: 40px;
+        padding: 5px 8px;
+    }
+</style>

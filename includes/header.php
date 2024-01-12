@@ -150,11 +150,37 @@
             </div>
         </div>
     </div>
-    <!-- <div class="box-3">
-        <div class="btn btn-three">
-            <span>HOVER ME</span>
-        </div>
-    </div>  -->
+
+
+    <!-- social media sidebar -->
+    <div id="social-sidebar" class="sidebar-fixed">
+        <aside class="sidebar-content">
+            <div class="side-social-icons">
+                <div href="#" class="facebook">
+                    <a href=""><i class="fab fa-facebook-square"></i>Facebook</a>
+                </div>
+                <div href="#" class="twitter">
+                    <a href=""><i class="fa-brands fa-x-twitter"></i>Twitter</a>
+                </div>
+                <div href="#" class="linkedin">
+                    <a href=""><i class="fab fa-linkedin"></i>LinkedIn</a>
+                </div>
+                <div href="#" class="whatsapp">
+                    <a href=""><i class="fab fa-whatsapp"></i>WhatsApp</a>
+                </div>
+                <div href="#" class="instagram">
+                    <a href=""><i class="fab fa-instagram"></i>Instagram</a>
+                </div>
+                <div href="#" class="youtube">
+                    <a href=""><i class="fab fa-youtube"></i>YouTube</a>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <style>
+
+    </style>
 
     <style>
         .box-3 {
