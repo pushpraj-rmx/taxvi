@@ -99,55 +99,9 @@
     </div>
 
 
-    <!-- Collaboration Section  -->
-    <div class="collaboration-section section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="offset-xl-1 col-xl-10 offset-lg-1 col-lg-10 text-center">
-                    <div class="section-title">
-                        <p>Let's Collaboration</p>
-                        <h2>This Could Be The Start Of Something
-                            Special Let's Work Together!</h2>
-                    </div>
-                    <a href="contact.php" class="main-btn">Get In Touch</a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="instragram-wrapper mt-60">
-                    <div class="instragram-inner owl-carousel">
-                        <div class="instagram-item">
-                            <a href="https://www.instagram.com/">
-                                <img src="assets/img/instagram/1.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="instagram-item">
-                            <a href="https://www.instagram.com/">
-                                <img src="assets/img/instagram/2.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="instagram-item">
-                            <a href="https://www.instagram.com/">
-                                <img src="assets/img/instagram/3.png" alt="">
-                            </a>
-                        </div>
-                        <div class="instagram-item">
-                            <a href="https://www.instagram.com/">
-                                <img src="assets/img/instagram/4.jpg" alt="">
-                            </a>
-                        </div>
-                        <div class="instagram-item">
-                            <a href="https://www.instagram.com/">
-                                <img src="assets/img/instagram/5.jpg" alt="">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- Contact Section  -->
-    <div class="contact-area section-padding pt-0">
+    <div class="contact-area section-padding pt-0 mt-120">
         <div class="container">
             <div class="contact-section-inner dark-bg">
                 <div class="contact-section-content">
