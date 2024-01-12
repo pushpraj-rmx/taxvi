@@ -77,9 +77,10 @@
 
     <!-- table area -->
     <style>
-                .feature-section {
-                    padding-top: 50px;
-                }
+        .feature-section {
+            padding-top: 50px;
+        }
+
         .feature-section h2 {
             font-size: 40px;
         }
@@ -526,7 +527,6 @@
 
             transition-timing-function: linear !important
         }
-            
     </style>
 
     <!-- Client Area  -->
